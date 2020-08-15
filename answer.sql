@@ -36,34 +36,3 @@ left join card_change_history on
 card.id = card_change_history.cardID
 group by dates;
 
--- Feature ideas: 
--- i) 
--- Hypothesis
--- increased number of necessary logins can induce increased daily login
-
--- Expected Impact
--- increased daily login
-
--- What the feature is (a quick explanation of the feature) 
--- User A can assign card to certain User(s) B
-
--- ii) 
--- Hypothesis
--- Increased user engagement per card can induce increased daily login
-
--- Expected Impact
--- increased user engagement per card and increased daily login
-
--- What the feature is (a quick explanation of the feature)
--- add daliy updates/notes on in-progress cards
-
--- iii) 
--- Hypothesis
--- Shortened feedback cycle between card can increase daily user login
-
--- Expected Impact
--- increased user activity for users who use this feature
-
--- What the feature is (a quick explanation of the feature)
--- expected start/due date for cards marked in backlog/ in-progress
-
